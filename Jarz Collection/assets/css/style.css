@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Titan+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style-type: none !important;
+    text-decoration: none !important;
+}
+
+/* ======ff-Rubik======*/
+.Balsamiq-Sans {
+    font-family: 'Balsamiq Sans',
+        cursive;
+}
+
+.Titan-One {
+    font-family: 'Titan One';
+}
+
+/* ======ff-size====== */
+:root {
+    /* FONT-SIZES */
+    --text-xxl: 64px;
+    --text-xl: 36px;
+    --text-lg: 24px;
+    --text-md: 20px;
+    --text-sm: 16px;
+    /* FONT-weight*/
+
+    --font-bold: 700;
+    --font-md: 500;
+    --font-regular: 400;
+    /* COLORS */
+    --color-primary: #000000;
+    --color-secondary: #FFFFFF;
+    --color-senior-secondary: #B3FFC7;
+    --color-pure: #FFFFFF;
+    --color-light: #4F5665;
+}
+
+/* --------root-start-------- */
+.text-xxl {
+    font-size: var(--text-xxl);
+}
+
+.text-xl {
+    font-size: var(--text-xl);
+}
+
+.text-lg {
+    font-size: var(--text-lg);
+}
+
+.text-md {
+    font-size: var(--text-md);
+}
+
+.text-sm {
+    font-size: var(--text-sm);
+}
+
+/* =======color-start======= */
+.color-primary {
+    color: var(--color-primary);
+}
+
+.color-secondary {
+    color: var(--color-secondary);
+}
+
+.color-pure {
+    color: var(--color-pure);
+}
+
+.color-light {
+    color: var(--color-light);
+}
+
+.color-senior-secondary {
+    color: var(--color-senior-secondary);
+}
+
+/* font-weight */
+.font-lg {
+    font-weight: var(--font-lg);
+}
+
+.font-md {
+    font-weight: var(--font-md);
+}
+
+.font-regular {
+    font-weight: var(--font-regular);
+}
+
+/* navbar start */
+
+.someone-btn {
+    color: var(--color-primary);
+    background-color: var(--color-senior-secondary);
+    padding: 13px 45px;
+    border: 5px solid var(--color-primary);
+    border-radius: 30px;
+}
+
+.someone-btn:hover {
+    color: var(--color-primary);
+    background-color: var(--color-secondary);
+}
+
+a {
+    color: none;
+}
+
+.navbar-brand {
+    margin-right: 0;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+nav ul li a {
+    font-size: var(--text-sm);
+    color: var(--color-primary) !important;
+}
+
+.header-section-bg-img {
+    background: linear-gradient(252.1deg, #A9FF92 -3.9%, #8BFA6C 104.25%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar-border {
+
+    border: 5px solid black;
+    border-radius: 50px;
+    position: fixed;
+    top: 10px;
+    left: 60px;
+    z-index: 5;
+}
+
+.height {
+    min-height: 40px;
+}
+
+.left-Cloud {
+    position: absolute;
+    top: 107px;
+    left: 0;
+}
+
+.position-fixed {
+    position: fixed;
+    top: 50px;
+}
+
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
+/* hero-section-start */
+.mx-with-400 {
+    max-width: 400px;
+}
+
+.hero-heading-box-shadow {
+    border: 3px solid #000000
+}
+
+.combined {
+    -webkit-text-stroke: 3px black;
+    color: white;
+    text-shadow:
+        2px 2px 0 #000,
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.hero-btn {
+    padding: 17px 34px;
+    background-color: #FFA4D4;
+    color: var(--color-primary);
+    border: 4px solid var(--color-primary);
+    border-radius: 34px;
+}
+
+.right-side-Cloud {
+    position: absolute;
+    right: 0;
+    top: 80px;
+}
+
+.small-cloud-img {
+    position: absolute;
+    right: 340px;
+    top: 50px;
+}
+
+.cloud-img {
+    position: absolute;
+    bottom: -68px;
+    left: 0;
+}
+
+/* main-section-start */
+.main-section-bg-img {
+    background-image: url("../image/png/main-section-bg-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+.discard-follwers-section-bg-img {
+    background-image: url("../image/png/discard-follwers-section-bg-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    margin-top: -10px !important;
+}
+
+.border-discard {
+    border: 3px solid black;
+    border-radius: 30px;
+}
+
+/* card-bg-img */
+.card-section-bg-img {
+    background-image: url("../image/png/card-section-bg-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin-top: -10px !important;
+}
+
+.discord-card-img-hight-width {
+    width: 64px;
+    height: 50px;
+    display: block;
+    margin: auto;
+}
+
+.max-width-150 {
+    max-width: 176px;
+}
+
+.card-btn {
+    padding: 12px 24px;
+    background-color: white;
+    border: 4px solid var(--color-primary);
+    border-radius: 34px;
+}
+
+.card {
+    padding: 40px 38px;
+    border: 4px solid black;
+    border-radius: 20px;
+}
+
+.card:hover {
+    box-shadow: 0px 23px 37px -10px #C99206;
+    border: 3px solid black;
+    border-radius: 25px;
+    margin-bottom: 35px;
+    transform: translateY(-75px);
+}
+
+.max-width-fb-card-heading {
+    max-width: 165px;
+}
+
+.w-20 {
+    width: 19%;
+}
+
+.facemask-card-img-hight-width {
+    width: 67px;
+    height: 61px;
+}
+
+.Mint-our-nft-h-w {
+    height: 60px;
+    width: 50px;
+}
+
+/* our-mission */
+.our-mission-section-bg-img {
+    background-image: url("../image/png/our-mission.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin-top: -10px !important;
+}
+
+.max-width-683 {
+    max-width: 683px;
+}
+
+/* roadmap-section-start */
+.roadmap-bg-img {
+    background-image: url("../image/png/roadmap-bg-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin-top: -10px !important;
+}
+
+.switich-btn {
+    padding: 17px 34px;
+    background-color: #B3FFC7;
+    border: 3px solid var(--color-primary);
+    border-radius: 34px;
+}
+
+.switich-btn-card {
+    background-color: var(--color-secondary);
+    display: inline-block !important;
+    padding: 20px 0px;
+    border-radius: 35px;
+    border: 3px solid var(--color-primary);
+}
+
+.card-bg-position-relative {
+    position: relative;
+}
+
+.card-bg-position-absolute {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.wallet-postion-absolute {
+    position: absolute;
+    top: 45px;
+    left: 40px;
+}
+
+.slick-silder-card {
+    padding: 12px 24px;
+    background-color: white;
+    border: 4px solid var(--color-primary);
+    border-radius: 34px;
+    min-height: 400px;
+}
+
+.max-width-320 {
+    max-width: 320px;
+}
+
+.card-height {
+    height: 400px !important;
+}
